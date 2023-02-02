@@ -10,22 +10,3 @@ export default function Footer() {
         </footer>
     )
 }
-
-// import React from "react";
-// import { NavLink } from 'react-router-dom';
-  
-// const Navbar = () => {
-//   return (
-//       <>
-//           <NavLink to="/" activeStyle>
-//             <button>Home</button>
-//           </NavLink>
-//           <NavLink to="/about" activeStyle>
-//             <button>About me</button>
-//           </NavLink>
-//           <NavLink to="/contact" activeStyle>
-//             <button>Contact</button>
-//           </NavLink>
-//       </>
-//   );
-// };
