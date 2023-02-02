@@ -5,19 +5,19 @@ import {
   Routes, 
   Route
 } from 'react-router-dom';
-import Header from './components/Header';
+import Navbar from './components/NavSelection';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import About from './pages/About';
+import Project from './pages/Projects';
 
 function App() {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='about' element={<About />} />
+        <Route path='projects' element={<Project />} />
         <Route path='contact' element={<Contact />} />
       </Routes>
       <Footer />
